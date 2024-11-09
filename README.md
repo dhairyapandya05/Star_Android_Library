@@ -96,6 +96,7 @@ When you add the JitPack dependency, JitPack will automatically check out the co
 ## 🌟 Example Project
 
 To see this library in action, clone this repository and run the example project included. The example demonstrates various ways to customize and use `RatingView` to suit different application needs.
+or Try cloning this sample application [Demp](https://github.com/dhairyapandya05/Rating_Library_Testing)
 
 ## 📄 License
 
