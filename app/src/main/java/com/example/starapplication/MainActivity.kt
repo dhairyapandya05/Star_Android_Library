@@ -14,5 +14,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         ratingView=findViewById(R.id.ratingv)
+        ratingView.selectedStar=4
     }
 }

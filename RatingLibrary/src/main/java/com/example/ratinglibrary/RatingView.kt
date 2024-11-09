@@ -41,7 +41,13 @@ class RatingView: CustomViewScaffold {
     private var lastMotionEventX=0f;
 
     val starXCoordinates = mutableListOf<Float>()
-    var selectedStar:Int=0;
+
+    var selectedStar: Int = 0
+        get() = field
+        set(value) {
+            field = value
+            invalidate() // Redraw the view whenever the selectedStar is updated
+        }
     private val starPath = Path()
     private val starCount = 5 // Total stars
     private val outerRadius = 80f // Outer radius of the star
