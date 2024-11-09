@@ -83,6 +83,10 @@ This library provides the following customizable attributes for `RatingView`:
 | `outerRadius`     | Radius of the outer circle (star size)       | dimension  | 80dp             |
 | `innerRadius`     | Radius of the inner circle (empty area)      | dimension  | 40dp             |
 
+## Sample 
+
+![2024-11-08-22-23-24_1](https://github.com/user-attachments/assets/2930d602-b084-4ef6-a90e-d6905c83e1e8)
+
 ## 📦 Dependency Management
 
 ### JitPack Build Process
